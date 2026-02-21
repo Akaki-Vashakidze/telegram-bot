@@ -85,7 +85,7 @@ bot.on('message', async (msg) => {
         const message = ` **${currency.name}**\n\n rate: \`${currency.rate}\` ${currency.symbol}\n code: ${currency.code}`;
         bot.sendMessage(chatId, message, { parse_mode: 'Markdown' });
     } else {
-        bot.sendMessage(chatId, `Could ot find "${text}" currency. Please use the menu buttons.`);
+        bot.sendMessage(chatId, `Could not find "${text}" currency. Please use the menu buttons.`);
     }
 });
 
