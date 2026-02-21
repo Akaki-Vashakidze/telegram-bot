@@ -1,7 +1,7 @@
 const TelegramBot = require('node-telegram-bot-api');
 const axios = require('axios');
 
-const TOKEN = '8284209775:AAGlzs-zMkFFFPBjjRbGYuJpeCAa_cEp5ik';
+const TOKEN = '';
 const API_URL = 'https://rowix.com/currencies.php';
 
 const bot = new TelegramBot(TOKEN, { polling: true });
